@@ -1,0 +1,50 @@
+body {
+    color: white;
+    background-image: url(https://image.lexica.art/full_webp/d8c2f8da-9f66-4c5d-a151-ebaf4d9be67d);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Celular */
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+footer {
+    margin: 20px;
+}
