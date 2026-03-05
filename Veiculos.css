@@ -20,9 +20,9 @@ body {
 
 .card {
     border: 1px solid #ccc;
-    padding: 15px;
+    padding: 20px;
     background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .card img {
