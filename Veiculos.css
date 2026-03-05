@@ -21,7 +21,7 @@ body {
 .card {
     border: 1px solid #ccc;
     padding: 15px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
     border-radius: 20px;
 }
 
